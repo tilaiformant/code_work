@@ -1,14 +1,17 @@
+/*    ch2_3.c    */
 #include <stdio.h>
 
 int main()
-{
-    int i1, i2 ,i3;
-    long j1, j2, j3;
-    i1 = 2147483647;
-    i2 = i1 + 1;
-    i3 = i2 - 1;
-    printf("i1 = %d\n", i1);
-    printf("i2 = %d\n", i2);
-    printf("i3 = %d\n", i3);
-    getchar();// 等待使用者輸入一個字元（按任意鍵）
+{   
+    printf("型態 = 大小 (bytes) \n");
+    printf("short = %d\n",sizeof(short));
+    printf("int = %d\n", sizeof(int));
+    printf("long = %d\n", sizeof(long));
+    printf("float = %d\n", sizeof(float));
+    printf("double = %d\n", sizeof(double));
+    printf("char =%d\n", sizeof(char));
+    
+    
+    getchar( );// 等待使用者輸入一個字元（按任意鍵）
+    return 0;
 }
