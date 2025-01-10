@@ -3,13 +3,14 @@
 
 int main()
 {   
-    int size;
-    float foot = 7.5;   /* 腳的尺寸 */
+   int i, s;
 
-    size = (int) foot + 1;
-    printf("你的腳的尺寸是     : %2.1f\n", foot);
-    printf("你購買的鞋子尺寸是 : %d\n", size); 
-
+   i = 5;
+   s = ++i + 3;
+   printf("s = ++i + 3 = %d\n", s);
+   i = 5;
+   s = 3 + i++;
+   printf("s = 3 + i++ = %d\n", s);
     getchar( );// 等待使用者輸入一個字元（按任意鍵）
     return 0;
 }
