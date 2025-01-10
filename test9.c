@@ -1,16 +1,19 @@
-/*    ch2_12_1.c    */
+/*    ch2_14.c    */
 #include <stdio.h>
 
 int main()
 {   
-   int i, s;
+   int a, c, d;
 
-   i = 5;
-   s = ++i + 3;
-   printf("s = ++i + 3 = %d\n", s);
-   i = 5;
-   s = 3 + i++;
-   printf("s = 3 + i++ = %d\n", s);
+   a = 3;
+   c = 2;
+   a *= c;
+   printf("a *= c = %d\n", a);
+   a = 3;
+   c = 2;
+   d = 4;
+   a *= c + d;
+   printf("a *= c + d = %d\n", a);
     getchar( );// 等待使用者輸入一個字元（按任意鍵）
     return 0;
 }
