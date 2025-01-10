@@ -1,18 +1,16 @@
-/*    ch2_7.c    */
+/*    ch2_9.c    */
 #include <stdio.h>
 
 int main()
 {   
-   int s, a, b, c;
+   int s, a;
+   float b;
 
-   a = 5;
-   b = 4;
-   c = 3;
-   s = a * b + c;
-   printf("s = a * b + c = %d\n", s);
-   s = a * (b + c);
-   printf("s = a * (b + c) = %d\n", s);
-   
+   a = 3;
+   b = 2.5;
+   s = a + b;
+   printf("s = a + b = %d\n", s);
+
     getchar( );// 等待使用者輸入一個字元（按任意鍵）
     return 0;
 }
