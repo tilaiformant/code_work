@@ -3,11 +3,17 @@
 
 int main()
 {   
-    float x = 2.77;
-    float y = 3.99;
-    int s = x + y;
-    printf("s = %d\n", s);
-
+    int a, b, c, d, e;
+    a = 0x38;
+    b = 036;
+    c = 077;
+    d = 0x75;
+    e = 0xEE;
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("c = %d\n", c);
+    printf("d = %d\n", d);
+    printf("e = %d\n", e);
 
 
     getchar();// 等待使用者輸入一個字元（按任意鍵）
