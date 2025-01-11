@@ -3,10 +3,13 @@
 
 int main()
 {   
-    double pi;
-    pi = 4 * (1 - 1.0/3 + 1.0/5 - 1.0/7 + 1.0/9);
-    printf("pi = %f \n", pi);
+    float x = 2.77;
+    float y = 3.99;
+    int s = x + y;
+    printf("s = %d\n", s);
 
-    getchar( );// 等待使用者輸入一個字元（按任意鍵）
+
+
+    getchar();// 等待使用者輸入一個字元（按任意鍵）
     return 0;
 }
